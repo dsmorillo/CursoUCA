@@ -1,7 +1,7 @@
 ---
 title: "Ejercicio práctico Rmarkdown"
 author:
-    - names: "María Hurtado de Mendoza"
+    - names: "Daniel Sánchez Morillo"
 
 date: "`r Sys.Date()`" 
 output: 
@@ -60,3 +60,4 @@ plot(dur ~ year, data = data)
 abline(lm(dur ~ year, data = data))
 
 ```
+Se aprecia como el gráfico presenta una tendencia descendente. La duración de los hits ha tendido a decrecer a lo largo del tiempo.
